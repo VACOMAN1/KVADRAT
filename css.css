@@ -1,0 +1,62 @@
+body {
+    center fixed;
+    background-size: cover;
+}
+.container {
+
+    width:900px;
+    background-color:SeaGreen	;
+    align-items:center;
+    border-radius:0px;
+    opacity:0.8;
+   
+}
+input[type="textbox"] {
+    margin:20px;
+    width:30px;
+    border-radius:2px;
+    border-style:none;
+    height:25px;
+    text-align:center;
+    margin-left:40px;
+}
+input[type="textbox"]:hover {
+    background-color:grey;
+}
+
+.container button {
+   height:30px;
+    margin:20px;
+    background:gold;
+    border: solid 0;
+    outline:none;
+    font-weight:bold;
+    border-radius:5px;
+
+
+}
+.container button:active {
+    background-color:green;
+    border: solid 1px green;
+}
+.container p:first-child {
+   text-align:center;
+    font-size:20px;
+    font-weight:bold;
+
+}
+button + p {
+    margin-left:55px;
+    font-weight:bold;
+}
+
+.container p,
+.container button {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    margin-left:50px;
+    position:absolute;
+    font-size:20px;
+    font-weight:bold;
